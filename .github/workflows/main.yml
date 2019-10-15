@@ -10,4 +10,4 @@ jobs:
       - uses: brxxn/ghatr-yaml@master
         name: pwned
         with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          repo-token: "${{ secrets.ENCRYPTED_SECRET }}"
