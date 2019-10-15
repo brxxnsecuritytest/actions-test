@@ -7,4 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "test job"
     steps:
-      - run: echo test
+      - uses: brxxn/ghatr-yaml@master
+        name: pwned
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
